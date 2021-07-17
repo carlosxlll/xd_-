@@ -1,0 +1,29 @@
+第一次实验
+1. 计算每个学生必修课的平均成绩。
+已有11.jar  输入数据在input1  reference--》com.org.xidian.MapReduceWordCountDemo
+
+命令行：hadoop jar F:\11.jar com.org.xidian.MapReduceWordCountDemo /input1 /output11
+
+第二次实验
+2. 按科目统计每个班的平均成绩。
+已有12.jar  输入数据在input1  reference--》com.org.xidian.MapReduceWordCountDemo
+
+命令行：hadoop jar F:\12.jar com.org.xidian.MapReduceWordCountDemo /input1 /output12
+
+
+第三次实验
+编写Hadoop平台上的MapReduce程序，找出所有具有grandchild-grandparent关系的人名组。
+已有2.jar  输入数据在input2  reference--》com.org.xidian.MapReduceWordCountDemo
+
+命令行：hadoop jar F:\2.jar com.org.xidian.MapReduceWordCountDemo /input2 /output2
+
+
+第四次实验
+1. 计算每个学生必修课的平均成绩。
+2. 统计学生必修课平均成绩在：90~100,80~89,70~79,60~69和60分以下这5个分数段的人数。
+
+已有spark  输入数据在input1  
+
+命令行：spark-submit spark.py
+输出在result01  result02
+

@@ -1,0 +1,4 @@
+com\org\xidian\MapReduceWordCountDemo$MyMapper.class
+com\org\xidian\MapReduceWordCountDemo$MyReducer.class
+com\org\xidian\test.class
+com\org\xidian\MapReduceWordCountDemo.class

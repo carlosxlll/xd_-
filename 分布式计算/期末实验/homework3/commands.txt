@@ -1,0 +1,11 @@
+mvn clean
+mvn package
+
+hadoop fs -mkdir /input
+hadoop fs -put ./input_file.txt /input
+
+hadoop jar .\target\WordCountDemo.jar com.org.xidian.MapReduceWordCountDemo /input/input_file.txt /output
+
+hadoop fs -ls /output
+hadoop fs -cat /output/part-r-00000
+hadoop fs -rm -r /output

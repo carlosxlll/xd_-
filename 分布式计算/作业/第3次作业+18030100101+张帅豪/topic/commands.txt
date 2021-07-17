@@ -1,0 +1,18 @@
+mvn clean
+mvn compile
+
+/*启动异步接收器，订阅某个主题的消息*/
+mvn exec:java -Dexec.mainClass="ASyncConsumer"
+
+
+/*重新启动一个控制台终端，向指定的主题发送一个消息*/
+mvn exec:java -Dexec.mainClass="Publisher"
+
+/*通过http://127.0.0.1:8161/admin/topics.jsp控制台观察 是否有名为“TOPIC”的主题被创建，是否缓存了消息 */
+
+
+
+
+
+
+
