@@ -5,5 +5,4 @@
 另，希望有可能的话，大家可以纠正补充。
 
 如要联系：
-- qq  1981096075
 - email  limozhang635@gmail.com
